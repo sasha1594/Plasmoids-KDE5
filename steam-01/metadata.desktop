@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment=It provides a clock.
+Encoding=UTF-8
+Icon=clock
+Keywords=
+Name=steam
+Type=Service
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Philip
+X-KDE-PluginInfo-Category=Date and Time
+X-KDE-PluginInfo-Email=sasha.1594@gmail.com
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=steam
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=https://github.com/sasha1594/techclock
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-DefaultSize=200,200
+X-Plasma-MainScript=main.qml
+X-Plasma-RemoteLocation=
