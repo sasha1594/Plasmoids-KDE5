@@ -19,8 +19,9 @@ Rectangle {
             }
   
         Image {
-            x: 70 ; y:125
-            id: backplate            
+            id: backplate
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.verticalCenter: parent.verticalCenter
             source: "background.png"
            }        
            
