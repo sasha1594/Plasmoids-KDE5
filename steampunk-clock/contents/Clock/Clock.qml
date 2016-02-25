@@ -10,6 +10,11 @@ Rectangle {
     property int hours:   0
     property int minutes: 0
     property int seconds: 0
+    
+     FontLoader {
+        id: font
+        source: "Engravers_MT.ttf"
+    }
    
             Image {
             x: 105 ; y:175
@@ -55,7 +60,7 @@ Rectangle {
                 verticalAlignment: Text.AlignVCenter
                 horizontalAlignment: Text.AlignHCenter
                 font.pointSize: 12
-                font.family: "Varicka.ttf"
+                font.family: font.name
                 color: "#000000"
 
     }
