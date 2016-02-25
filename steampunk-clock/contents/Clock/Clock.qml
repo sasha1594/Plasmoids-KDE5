@@ -12,7 +12,7 @@ Rectangle {
     property int seconds: 0
    
             Image {
-            x: 105 ; y:185
+            x: 105 ; y:175
             id: backplate            
             source: "background.png"
            }        
