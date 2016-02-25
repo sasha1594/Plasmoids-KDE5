@@ -13,7 +13,7 @@ Rectangle {
     
      FontLoader {
         id: font
-        source: "Engravers_MT.ttf"
+        source: "BIRTH_OF_A_HERO.ttf"
     }
    
             Image {

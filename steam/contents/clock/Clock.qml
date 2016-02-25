@@ -20,7 +20,7 @@ Rectangle {
     
     FontLoader {
         id: font
-        source: "Salsa-Regular.ttf"
+        source: "BIRTH_OF_A_HERO.ttf"
     }
     
             Image {
@@ -75,7 +75,7 @@ Rectangle {
                 
            
             Text {
-                x: 78; y: 132; z: 5
+                x: 85; y: 132; z: 5
                 width: 42; height: 17
                 text: Qt.formatDateTime(root.dateTime, "ddd, dd")
                 font.pointSize: 8

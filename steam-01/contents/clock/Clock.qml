@@ -13,6 +13,10 @@ Rectangle {
     property int minutes: 0
     property int seconds: 0
   
+        FontLoader {
+            id: font
+            source: "BIRTH_OF_A_HERO.ttf"
+            }
   
         Image {
             x: 70 ; y:125
@@ -58,21 +62,22 @@ Rectangle {
             anchors.horizontalCenter: face.horizontalCenter
             anchors.verticalCenter: face.verticalCenter
             source: "button.png"
-           }
+            }
              Image {
             x: 0; y: 0
             id: glass            
             anchors.horizontalCenter: face.horizontalCenter
             anchors.verticalCenter: face.verticalCenter
             source: "glass.png"
-           }      
+            }      
            
         Text {
-            x: 80; y: 132; z: 5
+            x: 85; y: 132; z: 5
             width: 42; height: 17
             text: Qt.formatDate(new Date(), "ddd, dd")
             font.pointSize: 8
-            font.family: "Varicka.ttf"
+            font.family: font.name
+            font.bold: true
             color: "#000000"
 
             }
