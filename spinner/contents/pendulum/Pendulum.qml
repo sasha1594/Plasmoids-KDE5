@@ -4,13 +4,24 @@ import QtQuick 2.0
 
 
 Rectangle {
-        id: root
-        width:100
-        height: 100
+        id: pendu
+        width:150
+        height: 150
         color: "transparent"
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        
+        Image {
+                anchors.horizontalCenter: pendu.horizontalCenter
+                anchors.verticalCenter: pendu.verticalCenter
+                id: background
+                source: "backplate.png"
+               
+            }
+
             Image {
                 id: pendulum
-                x: 5; y: 20
+                x: 15; y: 68
                 source: "pendulum.png"
                 smooth: true
                 rotation: 200-140

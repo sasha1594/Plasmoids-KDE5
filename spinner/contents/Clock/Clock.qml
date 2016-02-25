@@ -15,8 +15,7 @@ Rectangle {
         id: clock
         
           }    
-          
-          
+           
            
             Image {
                 x: 83; y: 48
@@ -52,7 +51,7 @@ Rectangle {
                 source: "second-wheel.png"
                 //origin.x: 6; origin.y: 80
                 smooth: true
-                rotation: root.seconds * 45
+                rotation: root.seconds * 35
                 //Behavior on rotation {SpringAnimation{ spring: 2; damping: 0.2; modulus: 360 }}
             }
             
