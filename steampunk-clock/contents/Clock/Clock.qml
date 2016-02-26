@@ -54,6 +54,14 @@ Rectangle {
                 smooth: true
                 rotation: root.seconds * 6
             }
+            
+             Image {
+            id: glass
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.verticalCenter: parent.verticalCenter
+            source: "glass.png"
+           }        
+            
             Text {
                 x: 130; y: 202; z: 5
                 width: 42; height: 17
