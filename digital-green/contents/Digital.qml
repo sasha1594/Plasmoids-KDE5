@@ -17,7 +17,7 @@ Rectangle {
             }
         FontLoader {
         id: font
-        source: "digital-7.ttf"
+        source: "digital-7__mono_.ttf"
     } 
     Image {
             id: face
@@ -35,13 +35,13 @@ Text {          id: hour
                 
                 font.family: font.name
                 font.pointSize: 42
-                font.bold: true
+                //font.bold: true
                 color: "#00ff00"
                 layer.enabled: true
              }
                 Text {
                 id: colon
-                x: 59; y: 30
+                x: 50; y: 30
                 //width: 30
                 text: blink? " : " : "   "
                 color: "#00ff00"
